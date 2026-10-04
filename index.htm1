@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Tools</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            margin: 0;
+            color: #222;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            color: #666;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        button {
+            background: #111;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Tools</h1>
+        <p>Simple tools made for students.</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Tools</h2>
+
+        <div class="tools">
+
+            <div class="card">
+                <h2>📊 Grade Calculator</h2>
+                <p>Calculate your average grade easily.</p>
+                <button>Coming soon</button>
+            </div>
+
+            <div class="card">
+                <h2>🎓 University Finder</h2>
+                <p>Find degrees that match your interests.</p>
+                <button>Coming soon</button>
+            </div>
+
+            <div class="card">
+                <h2>📚 Study Planner</h2>
+                <p>Create a simple study plan for your exams.</p>
+                <button>Coming soon</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
